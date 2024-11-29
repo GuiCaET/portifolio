@@ -1,0 +1,154 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(
+        to bottom, 
+        rgba(102, 0, 146, 0.573),      
+        rgba(25, 0, 50, 0.7),   
+        rgba(25, 0, 50, 0.5),   
+        rgba(25, 0, 50, 0.4),    
+        rgba(0, 0, 0, 1)
+    );
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    border-bottom: 3px solid rgba(204, 0, 255, 0.6);
+}
+
+.bemvindo {
+    color: rgba(156, 0, 156, 0.625);
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: rgba(255, 0, 255, 0.5);
+}
+
+.textoprincipal {
+    text-align: right;
+    padding-right: 50px;
+    margin-top: 100px;
+    position: relative;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.highlight {
+    color: #ff00ff55;
+}
+
+.descricao {
+    max-width: 600px;
+    margin-left: 720px;
+    line-height: 1.5;
+    font-size: 1.2em;
+    color: #D3D3D3;
+}
+
+.curriculo-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #FF00FF;
+    color: #FF00FF;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.curriculo-btn:hover {
+    background-color: #ff00ff54;
+    color: white;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #FF00FF;
+}
+
+.foto-perfil {
+    width: 110px; 
+    height: 110px; 
+    border-radius: 100%; 
+}
+
+.foto-perfil img {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 500%;
+    height: 500%; 
+    opacity: 0.3;
+    border-radius: 90%;
+}
+
+.content {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgba(255, 0, 255, 0.8);
+}
+
+.curso-lista {
+    list-style-type: square;
+    color: #D3D3D3;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+.curso-lista li {
+    margin-bottom: 10px;
+}
+
+.sobre-mim {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #D3D3D3;
+}
